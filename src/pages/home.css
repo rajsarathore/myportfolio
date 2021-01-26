@@ -1,0 +1,51 @@
+.blueText{
+    color: rgb(42, 19, 248);
+}
+.greenText{
+    color: rgb(21, 182, 21);
+}
+
+.backgroundOrange{
+    background-color: rgb(194, 110, 14);
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profilePic{
+    border-radius: 50px;
+    align-self: center;
+}
+
+.aboutme{
+    margin: 50px 100px;
+    border: 1px solid rgb(194, 110, 14);
+    border-radius: 50px;
+    padding: 10px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 480px) {
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30px 10px;
+        border: 1px solid rgb(194, 110, 14);
+        border-radius: 50px;
+        padding: 10px;
+        line-height: 1.5;
+    }  
+}
