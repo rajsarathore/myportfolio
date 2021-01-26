@@ -12,7 +12,7 @@ export default class Home extends React.Component {
     constructor(props){
         super(props)
         this.state={
-            isShowWelcome:false
+            isShowWelcome:true
         }
     }
     componentDidMount(){
