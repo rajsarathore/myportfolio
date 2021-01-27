@@ -1,0 +1,21 @@
+.footerContent{
+    background-color: rgb(59, 59, 233);
+    color: white;
+    padding: 30px 10px;
+}
+.footerContent .iconDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.iconRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    align-self: center;
+}
+.footerContent i{
+    color: white;
+}

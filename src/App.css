@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,37 @@
   color: white;
 }
 
+.dayTheme{
+  background-color: white;
+  color: #282c34;
+}
+.nightTheme{
+  background-color: #282c34;
+  color: white;
+}
+
+
 .App-link {
   color: #61dafb;
+}
+
+.theme{
+  width: 100%;
+  text-align: end;
+}
+.theme button{
+  border: 0px;
+  border-radius: 50px;
+  outline-width: 0px;
+}
+.theme img{
+  width: 100px; height: 80px;
+  border-radius: 50px;
+}
+@media screen and (max-width: 800px) {
+  .theme img{
+    width: 40px; height: 40px;
+  }
 }
 
 @keyframes App-logo-spin {
